@@ -1,7 +1,8 @@
 LifeJS
 ======
 
-Who doesn't like Game of life?
+Who doesn't like Conway's Game of life?  
+
 Well, I really do, and I do most when it's in JavaScript.
 
 ------
