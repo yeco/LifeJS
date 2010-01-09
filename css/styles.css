@@ -28,8 +28,8 @@ body {
 	cursor:move;
 	-webkit-box-shadow: 2px 2px 6px #111;
 	-moz-box-shadow: 2px 2px 6px #111;
-	/*-moz-border-radius: 6px;
-	   -webkit-border-radius: 6px;*/
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
 	opacity: 0.8;
 }
 
