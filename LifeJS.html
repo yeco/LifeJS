@@ -17,21 +17,7 @@
 		<script src="./js/navpanel.js" type="text/javascript"></script>
 		<script src="./js/shapes.js" type="text/javascript"></script>
 		<script src="./js/library.js" type="text/javascript"></script>
-    
-		<script>
-			//get a reference to the canvas
-			$(document).ready(function() {
-				init();
-				initGrid();
-				nav.init();
-				
-				$('#canvas').mouseup(grid.drawStop);
-				$('#canvas').mousedown(grid.drawStart);
-				$('#play').mouseup(lifePlay);
-				$('#pause').mouseup(lifePause);
-				
-			});	
-		</script>
+
     
     <link rel="stylesheet" href="./css/styles.css" type="text/css" media="screen, projection">
         

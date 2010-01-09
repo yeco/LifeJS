@@ -91,3 +91,17 @@ function log(m){
 		//console.log(m);
 	}
 }
+
+//get a reference to the canvas
+$(document).ready(function() {
+	init();
+	initGrid();
+	nav.init();
+	
+	$('#canvas').mouseup(grid.drawStop);
+	$('#canvas').mousedown(grid.drawStart);
+	$('#play').mouseup(lifePlay);
+	$('#pause').mouseup(lifePause);
+	
+});
+
